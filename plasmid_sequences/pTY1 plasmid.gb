@@ -1,0 +1,477 @@
+LOCUS       pTY.1-lacI         5656 bp ds-DNA     circular     06-JUL-2019
+DEFINITION  .
+ACCESSION   urn.local...83n-hklt6bq
+KEYWORDS    .
+SOURCE      
+  ORGANISM  .
+COMMENT     ApEinfo:methylated:1.
+FEATURES             Location/Qualifiers
+     sequencing      37..68
+                     /created_by="User"
+                     /modified_by="User"
+                     /label="A"
+     gene            101..916
+                     /locus_tag="KanR"
+                     /ApEinfo_fwdcolor="#ff8080"
+                     /ApEinfo_revcolor="#ff8080"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+                     /modified_by="User"
+                     /label="Kanamycin Kinase"
+     misc_feature    133
+                     /Original_Bases="G"
+                     /label="G"
+                     /note="Geneious type: Editing History Replacement"
+     sequencing      635..665
+                     /created_by="User"
+                     /label="B"
+     rep_origin      complement(988..1824)
+                     /locus_tag="p15A Origin of Replication"
+                     /ApEinfo_fwdcolor="#ff00ff"
+                     /ApEinfo_revcolor="#ff00ff"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+                     /modified_by="User"
+                     /label="p15A origin of replication"
+     sequencing      1233..1261
+                     /created_by="User"
+                     /label="C"
+     misc_feature    1453
+                     /Original_Bases
+                     /label
+                     /note="Geneious type: Editing History Insertion"
+     sequencing      1832..1862
+                     /created_by="User"
+                     /label="D"
+     terminator      complement(1904..1951)
+                     /note="T7 terminator"
+                     /note="transcription terminator for bacteriophage T7 RNA 
+                     polymerase"
+     misc_feature    1952..2120
+                     /Original_Bases
+                     /label
+                     /note="Geneious type: Editing History Insertion"
+     overhang        1968..1975
+                     /created_by="User"
+                     /modified_by="dst1"
+                     /label="SrfI"
+     overhang        2033..2040
+                     /created_by="User"
+                     /modified_by="dst1"
+                     /label="FseI"
+     overhang        2088..2095
+                     /created_by="dst1"
+                     /modified_by="dst1"
+                     /label="SrfI"
+     terminator      complement(2121..2237)
+                     /locus_tag="Native AraC Terminator (2SNP)"
+                     /ApEinfo_fwdcolor="#804000"
+                     /ApEinfo_revcolor="#804000"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+                     /modified_by="User"
+                     /label="Native araC terminator"
+     CDS             complement(2259..3341)
+                     /locus_tag="LacI"
+                     /ApEinfo_fwdcolor="#ffff80"
+                     /ApEinfo_revcolor="#ffff80"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+                     /modified_by="User"
+                     /label="lacI"
+     sequencing      2558..2588
+                     /created_by="User"
+                     /label="E"
+     sequencing      3159..3190
+                     /created_by="User"
+                     /label="F"
+     promoter        complement(3370..3423)
+                     /locus_tag="PLacI (up until -1)"
+                     /ApEinfo_fwdcolor="cyan"
+                     /ApEinfo_revcolor="cyan"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+                     /modified_by="User"
+                     /label="PlacI"
+     promoter        complement(3382..3421)
+                     /created_by="User"
+                     /modified_by="User"
+                     /label="pGTGv2 plas R"
+     promoter        3405..3420
+                     /created_by="User"
+                     /label="pGTG gBlock f"
+     terminator      3431..3491
+                     /created_by="User"
+                     /label="L3S2P21"
+     misc_feature    3431..3491
+                     /Original_Bases
+                     /label
+                     /note="Geneious type: Editing History Insertion"
+     promoter        3498..3526
+                     /note="strong E. coli promoter; hybrid between the trp and
+                      lac UV5 promoters"
+                     /modified_by="User"
+                     /label="tacII promoter"
+     promoter        3498..3503
+                     /created_by="User"
+                     /modified_by="User"
+                     /label="-35"
+     promoter        3520..3525
+                     /created_by="User"
+                     /modified_by="User"
+                     /label="-10"
+     protein_bind    3532..3552
+                     /bound_moiety="lac repressor encoded by lacI"
+                     /note="The lac repressor binds to the lac operator to 
+                     inhibit transcription in E. coli. This inhibition can be
+                     relieved by adding lactose or
+                     isopropyl-beta-D-thiogalactopyranoside (IPTG)."
+                     /label="lac operator"
+     insulator       3553..3627
+                     /locus_tag="RiboJ Ribozyme-insulator"
+                     /ApEinfo_fwdcolor="#ffff80"
+                     /ApEinfo_revcolor="#ffff80"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+                     /modified_by="User"
+                     /label="riboJ ribozyme insulator"
+     sequencing      3567..3589
+                     /created_by="User"
+                     /modified_by="User"
+                     /label="L"
+     primer_bind     complement(3582..3638)
+                     /created_by="dst1"
+                     /Sequence="GATGGCTAGTATTAAACAAAATTATTTGTAGAGGCTGTTTCGTCCTC
+                     ACGGACTCAT"
+                     /modified_by="dst1"
+                     /label="pTYv1 R"
+     primer_bind     3606..3683
+                     /created_by="dst1"
+                     /Sequence="CTCTACAAATAATTTTGTTTAATACTAGCCATCAAGGAGGACTGCTA
+                     CATGAATAGCAGTACGAAAATTGCGCTTGTC"
+                     /modified_by="dst1"
+                     /label="pTY F"
+     RBS             3639..3646
+                     /created_by="User"
+                     /modified_by="dst1"
+     gene            3654..4856
+                     /created_by="User"
+                     /label="tetA"
+     misc_feature    3690
+                     /Original_Bases="T"
+                     /label="T"
+                     /note="Geneious type: Editing History Replacement"
+     misc_feature    3692
+                     /Original_Bases="A"
+                     /label="A"
+                     /note="Geneious type: Editing History Replacement"
+     misc_feature    3698
+                     /Original_Bases="C"
+                     /label="C"
+                     /note="Geneious type: Editing History Replacement"
+     promoter        3793..3822
+                     /created_by="dst1"
+                     /label=1445
+     misc_feature    3794
+                     /Original_Bases="T"
+                     /label="T"
+                     /note="Geneious type: Editing History Replacement"
+     misc_feature    3818
+                     /Original_Bases="A"
+                     /label="A"
+                     /note="Geneious type: Editing History Replacement"
+     Barcoding       3852..3854
+                     /created_by="dst1"
+                     /label="R-S"
+     misc_feature    3852
+                     /Original_Bases="C"
+                     /label="C"
+                     /note="Geneious type: Editing History Replacement"
+     misc_feature    3875
+                     /Original_Bases="A"
+                     /label="A"
+                     /note="Geneious type: Editing History Replacement"
+     Barcoding       4041..4043
+                     /created_by="dst1"
+                     /label="W-L"
+     misc_feature    4042
+                     /Original_Bases="G"
+                     /label="G"
+                     /note="Geneious type: Editing History Replacement"
+     misc_feature    4088
+                     /Original_Bases="T"
+                     /label="T"
+                     /note="Geneious type: Editing History Replacement"
+     sequencing      4123..4147
+                     /created_by="User"
+                     /label="K"
+     misc_feature    4148
+                     /Original_Bases="T"
+                     /label="T"
+                     /note="Geneious type: Editing History Replacement"
+     misc_feature    4154
+                     /Original_Bases="T"
+                     /label="T"
+                     /note="Geneious type: Editing History Replacement"
+     misc_feature    4157
+                     /Original_Bases="T"
+                     /label="T"
+                     /note="Geneious type: Editing History Replacement"
+     misc_feature    4175
+                     /Original_Bases="T"
+                     /label="T"
+                     /note="Geneious type: Editing History Replacement"
+     misc_feature    4178
+                     /Original_Bases="T"
+                     /label="T"
+                     /note="Geneious type: Editing History Replacement"
+     misc_feature    4190
+                     /Original_Bases="T"
+                     /label="T"
+                     /note="Geneious type: Editing History Replacement"
+     misc_feature    4232
+                     /Original_Bases="T"
+                     /label="T"
+                     /note="Geneious type: Editing History Replacement"
+     misc_feature    4235
+                     /Original_Bases="A"
+                     /label="A"
+                     /note="Geneious type: Editing History Replacement"
+     misc_feature    4259
+                     /Original_Bases="T"
+                     /label="T"
+                     /note="Geneious type: Editing History Replacement"
+     misc_feature    4265
+                     /Original_Bases="T"
+                     /label="T"
+                     /note="Geneious type: Editing History Replacement"
+     misc_feature    4269
+                     /Original_Bases="T"
+                     /label="T"
+                     /note="Geneious type: Editing History Replacement"
+     misc_feature    4271
+                     /Original_Bases="A"
+                     /label="A"
+                     /note="Geneious type: Editing History Replacement"
+     promoter        4272..4300
+                     /created_by="dst1"
+                     /label=1923
+     misc_feature    4274
+                     /Original_Bases="T"
+                     /label="T"
+                     /note="Geneious type: Editing History Replacement"
+     misc_feature    4280
+                     /Original_Bases="T"
+                     /label="T"
+                     /note="Geneious type: Editing History Replacement"
+     misc_feature    4286
+                     /Original_Bases="A"
+                     /label="A"
+                     /note="Geneious type: Editing History Replacement"
+     misc_feature    4295
+                     /Original_Bases="T"
+                     /label="T"
+                     /note="Geneious type: Editing History Replacement"
+     misc_feature    4301
+                     /Original_Bases="T"
+                     /label="T"
+                     /note="Geneious type: Editing History Replacement"
+     misc_feature    4304
+                     /Original_Bases="T"
+                     /label="T"
+                     /note="Geneious type: Editing History Replacement"
+     misc_feature    4325
+                     /Original_Bases="T"
+                     /label="T"
+                     /note="Geneious type: Editing History Replacement"
+     misc_feature    4382
+                     /Original_Bases="T"
+                     /label="T"
+                     /note="Geneious type: Editing History Replacement"
+     Barcoding       4476..4478
+                     /created_by="dst1"
+                     /label="K-K"
+     misc_feature    4478
+                     /Original_Bases="G"
+                     /label="G"
+                     /note="Geneious type: Editing History Replacement"
+     misc_feature    4551
+                     /Original_Bases="T"
+                     /label="T"
+                     /note="Geneious type: Editing History Replacement"
+     misc_feature    4553
+                     /Original_Bases="A"
+                     /label="A"
+                     /note="Geneious type: Editing History Replacement"
+     misc_feature    4727
+                     /Original_Bases="T"
+                     /label="T"
+                     /note="Geneious type: Editing History Replacement"
+     promoter        4758..4789
+                     /created_by="dst1"
+                     /label=2412
+     misc_feature    4763
+                     /Original_Bases="T"
+                     /label="T"
+                     /note="Geneious type: Editing History Replacement"
+     misc_feature    4766
+                     /Original_Bases="T"
+                     /label="T"
+                     /note="Geneious type: Editing History Replacement"
+     misc_feature    4781
+                     /Original_Bases="T"
+                     /label="T"
+                     /note="Geneious type: Editing History Replacement"
+     misc_feature    4784
+                     /Original_Bases="T"
+                     /label="T"
+                     /note="Geneious type: Editing History Replacement"
+     misc_feature    4787
+                     /Original_Bases="T"
+                     /label="T"
+                     /note="Geneious type: Editing History Replacement"
+     misc_feature    4796
+                     /Original_Bases="A"
+                     /label="A"
+                     /note="Geneious type: Editing History Replacement"
+     misc_feature    4811
+                     /Original_Bases="T"
+                     /label="T"
+                     /note="Geneious type: Editing History Replacement"
+     misc_feature    4860..4879
+                     /Original_Bases="ACTTTAAGAAGGAGATATAA"
+                     /label="ACTTTAAGAAGGAGATATAA"
+                     /note="Geneious type: Editing History Replacement"
+     CDS             4880..5599
+                     /created_by="dst1"
+                     /modified_by="dst1"
+                     /label="YFP (CO)"
+     promoter        4880..5599
+                     /created_by="dst1"
+                     /label
+     Barcoding       4913..4915
+                     /created_by="dst1"
+                     /label="V-I"
+     misc_feature    4913
+                     /Original_Bases="G"
+                     /label="G"
+                     /note="Geneious type: Editing History Replacement"
+     Barcoding       5552..5554
+                     /created_by="dst1"
+                     /label="V-V"
+     misc_feature    5554
+                     /Original_Bases="A"
+                     /label="A"
+                     /note="Geneious type: Editing History Replacement"
+     CDS             complement(5577..5617)
+                     /created_by="dst1"
+                     /label="YFPCO r"
+     CDS             5597..5631
+                     /created_by="dst1"
+                     /modified_by="dst1"
+                     /label="bbFP Swap "
+     terminator      complement(5604..5656)
+                     /locus_tag="L3S3P21 Terminator"
+                     /ApEinfo_fwdcolor="#ff0000"
+                     /ApEinfo_revcolor="#ff0000"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+                     /modified_by="User"
+                     /label="L3S3P21 Terminator"
+ORIGIN      
+        1 ttgtgtctca aaatctctga tgtacattgc acaagataaa aatatatcat catgaacaat
+       61 aaaactgtct gcttacataa acagtaatac aaggggtgtt atgagccata ttcaacggga
+      121 aacgtcttgc tccaggccgc gattaaattc caacatggat gctgatttat atgggtataa
+      181 atgggctcgc gataatgtcg ggcaatcagg tgcgacaatc tatcgattgt atgggaagcc
+      241 cgatgcgcca gagttgtttc tgaaacatgg caaaggtagc gttgccaatg atgttacaga
+      301 tgagatggtc agactaaact ggctgacgga atttatgcct cttccgacca tcaagcattt
+      361 tatccgtact cctgatgatg catggttact caccactgcg atccccggga aaacagcatt
+      421 ccaggtatta gaagaatatc ctgattcagg tgaaaatatt gttgatgcgc tggcagtgtt
+      481 cctgcgccgg ttgcattcga ttcctgtttg taattgtcct tttaacagcg atcgcgtatt
+      541 tcgtctcgct caggcgcaat cacgaatgaa taacggtttg gttgatgcga gtgattttga
+      601 tgacgagcgt aatggctggc ctgttgaaca agtctggaaa gaaatgcata agcttttgcc
+      661 attctcaccg gattcagtcg tcactcatgg tgatttctca cttgataacc ttatttttga
+      721 cgaggggaaa ttaataggtt gtattgatgt tggacgagtc ggaatcgcag accgatacca
+      781 ggatcttgcc atcctatgga actgcctcgg tgagttttct ccttcattac agaaacggct
+      841 ttttcaaaaa tatggtattg ataatcctga tatgaataaa ttgcagtttc atttgatgct
+      901 cgatgagttt ttctaaggta actgtcagac caagtttact catatatact ttagattgat
+      961 ttttcgttcc actgagcgtc agacccctta ataagatgat cttcttgaga tcgttttggt
+     1021 ctgcgcgtaa tctcttgctc tgaaaacgaa aaaaccgcct tgcagggcgg tttttcgaag
+     1081 gttctctgag ctaccaactc tttgaaccga ggtaactggc ttggaggagc gcagtcacca
+     1141 aaacttgtcc tttcagttta gccttaaccg gcgcatgact tcaagactaa ctcctctaaa
+     1201 tcaattacca gtggctgctg ccagtggtgc ttttgcatgt ctttccgggt tggactcaag
+     1261 acgatagtta ccggataagg cgcagcggtc ggactgaacg gggggttcgt gcatacagtc
+     1321 cagcttggag cgaactgcct acccggaact gagtgtcagg cgtggaatga gacaaacgcg
+     1381 gccataacag cggaatgaca ccggtaaacc gaaaggcagg aacaggagag cgcacgaggg
+     1441 agccgccagg gggaaacgcc tggtatcttt atagtcctgt cgggtttcgc caccactgat
+     1501 ttgagcgtca gatttcgtga tgcttgtcag gggggcggag cctatggaaa aacggctttg
+     1561 ccgcggccct ctcacttccc tgttaagtat cttcctggca tcttccagga aatctccgcc
+     1621 ccgttcgtaa gccatttccg ctcgccgcag tcgaacgacc gagcgtagcg agtcagtgag
+     1681 cgaggaagcg gaatatatcc tgtatcacat attctgctga cgcaccggtg cagccttttt
+     1741 tctcctgcca catgaagcac ttcactgaca ccctcatcag tgccaacata gtaagccagt
+     1801 atacactccg ctagcgctga ggtctgcctc gtgcagcgag tcagtgagcg aggaagcacc
+     1861 tcagataaaa tatttgctca tgagcccgaa gtggcgagcc cgacaaaaaa cccctcaaga
+     1921 cccgtttaga ggccccaagg ggttatgcta gtcttcccca tcggtgagcc cgggctgtcg
+     1981 gcgtnntnnn anntnnnann tnnnanntnn nanntnnnan natatgccag caggccggcc
+     2041 acgctnntnn nanntnnnan nannnanntn nnanntnnna nncggtggcc cgggccacga
+     2101 tgcgtccggc gtagaggatc tgctcatgtt tgacagctta tcatcgatgc ataatgtgcc
+     2161 tgtcaaatgg acgaagcagg gattctgcaa accctatgct actccctcga gccgtcaatt
+     2221 gtctgattcg ttaccaatta ttttttcctc ctggattatc actgcccgct ttccagtcgg
+     2281 gaaacctgtc gtgccagctg cattaatgaa tcggccaacg cgcggggaga ggcggtttgc
+     2341 gtattgggcg ccagggtggt ttttcttttc accagtgaga ctggcaacag ctgattgccc
+     2401 ttcaccgcct ggccctgaga gagttgcagc aagcggtcca cgctggtttg ccccagcagg
+     2461 cgaaaatcct gtttgatggt ggttaacggc gggatataac atgagctatc ttcggtatcg
+     2521 tcgtatccca ctaccgagat atccgcacca acgcgcagcc cggactcggt aatggcgcgc
+     2581 attgcgccca gcgccatctg atcgttggca accagcatcg cagtgggaac gatgccctca
+     2641 ttcagcattt gcatggtttg ttgaaaaccg gacatggcac tccagtcgcc ttcccgttcc
+     2701 gctatcggct gaatttgatt gcgagtgaga tatttatgcc agccagccag acgcagacgc
+     2761 gccgagacag aacttaatgg gcccgctaac agcgcgattt gctggtgacc caatgcgacc
+     2821 agatgctcca cgcccagtcg cgtaccgtcc tcatgggaga aaataatact gttgatgggt
+     2881 gtctggtcag agacatcaag aaataacgcc ggaacattag tgcaggcagc ttccacagca
+     2941 atggcatcct ggtcatccag cggatagtta atgatcagcc cactgacgcg ttgcgcgaga
+     3001 agattgtgca ccgccgcttt acaggcttcg acgccgcttc gttctaccat cgacaccacc
+     3061 acgctggcac ccagttgatc ggcgcgagat ttaatcgccg cgacaatttg cgacggcgcg
+     3121 tgcagggcca gactggaggt ggcaacgcca atcagcaacg actgtttgcc cgccagttgt
+     3181 tgtgccacgc ggttgggaat gtaattcagc tccgccatcg ccgcttccac tttttcccgc
+     3241 gttttcgcag aaacgtggct ggcctggttc accacgcggg aaacggtctg ataagagaca
+     3301 ccggcatact ctgcgacatc gtataacgtt actggtttca tattcaccac cctgaattga
+     3361 ctctcttccg ggcgctatca tgccataccg cgaaaggttt tgcgccattc gatggcgcgc
+     3421 cgccataaat ctcggtacca aattccagaa aagaggcctc ccgaaagggg ggcctttttt
+     3481 cgttttggtc cgagctgttg acaattaatc atcggctcgt ttaatgtgtg gaattgtgag
+     3541 cggataacaa ttagctgtca ccggatgtgc tttccggtct gatgagtccg tgaggacgaa
+     3601 acagcctcta caaataattt tgtttaatac tagccatcaa ggagagctgc tacatgaata
+     3661 gcagtacgaa aattgcgctt gtcatcaccc tcctggatgc gatggggatc ggcttgatca
+     3721 tgccggtact gccaaccctt ctgcgcgagt tcattgcaag cgaagatatt gccaaccatt
+     3781 tcggggttct gctcgcactg tacgccttaa tgcaggtcat ctttgctccc tggttaggca
+     3841 aaatgtcaga cagctttgga cgccgtcctg ttttgctgtt aagccttatc ggagcgagcc
+     3901 tggattacct tttattggcc ttctcctcgg cactgtggat gctttatttg ggtcgtttgc
+     3961 tgagtgggat tacaggcgcg acgggtgccg tggcggcgtc ggtgattgct gatacgacgt
+     4021 ccgcaagtca acgtgtgaaa ttgttcggct ggttaggagc ctcctttggc ttgggcttaa
+     4081 tcgctgggcc aattattggc gggttcgccg gcgaaatctc accacattcc ccttttttca
+     4141 tcgcggcatt actcaacatt gtcacgttcc tggtggtgat gttctggttc cgcgaaacga
+     4201 aaaacacccg cgataacacg gatacagagg tgggggttga aacgcaatcg aacagtgtgt
+     4261 acatcacgct cttcaagacc atgcccatcc tgctcatcat ctacttctcc gcacagttga
+     4321 ttgggcaaat cccggccaca gtgtgggttt tgtttacgga aaaccgtttc gggtggaact
+     4381 ccatgatggt gggtttctct ctggctggat tgggacttct gcatagtgtt ttccaggctt
+     4441 tcgtcgctgg ccgtattgcc acaaagtggg gagaaaaaac cgctgtattg cttggtttta
+     4501 tcgcagatag ctctgcgttt gccttcttgg catttattag cgaaggctgg ctcgtgtttc
+     4561 cggtattgat tctgttggct gggggcggta tcgcattacc cgcgctgcag ggagttatgt
+     4621 ctattcaaac caaatcacac caacaaggag cgctgcaagg cttacttgtg tccctgacca
+     4681 acgcaaccgg agtcatcggg ccacttctgt tcgctgtaat ttataaccac tcactgccaa
+     4741 tttgggatgg atggatctgg atcatcggtc ttgccttcta ctgcatcatc attttgctgt
+     4801 caatgacatt catgctgacg cctcaagccc aaggatctaa acaagaaacg agtgcctaac
+     4861 ggcgtaagga ggtattttta tggtgtcaaa gggtgaggaa ctgtttacgg ggatcgtccc
+     4921 gattcttgtt gaacttgacg gcgacgtaaa tggtcacaag ttttccgtat cgggcgaagg
+     4981 tgagggcgat gcgacttatg ggaaattaac actgaaattc atttgcacca ccggaaaact
+     5041 gcccgttcct tggcctactc tggtaaccac gttcggatat ggtttacagt gttttgctcg
+     5101 ctacccggac catatgaaac tgcacgattt cttcaagtcc gccatgccgg agggctacgt
+     5161 gcaggaacgt acaatcttct tcaaagacga tggtaattac aagacccgtg ctgaagttaa
+     5221 atttgagggg gatactttag tcaatcgtat tgaattgaag gggattgact ttaaggaaga
+     5281 cggtaatatc cttggccaca agcttgaata caactacaat agtcacaatg tgtatattat
+     5341 ggctgataaa cagaagaatg gcattaaggt taactttaag atccgtcaca atatcgaaga
+     5401 cggatctgtc cagcttgctg accattatca gcaaaatacg ccgatcggtg acggtccggt
+     5461 tttgttgccg gacaaccatt acctgtccta tcagtcggcg ttaagtaaag atccgaatga
+     5521 gaaacgcgac catatggttt tgttggagtt tgtgacggct gctggcatta cgcttgggat
+     5581 ggacgagctg tataaataaa agcgggagac cagaaacaaa aaaaggcccc ccgttaggga
+     5641 ggccttcaat aattgg
+//
